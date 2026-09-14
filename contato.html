@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato — Eletric Motors</title>
+
+  <!-- GARANTE A PERSISTÊNCIA DO TEMA ANTES DA RENDERIZAÇÃO DA PÁGINA -->
+  <script>
+    document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light');
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Ir para o conteúdo principal</a>
+
+  <div class="academic-banner">
+    <div class="banner-container">
+      <span class="badge">Site Aura</span>
+      <p>Desenvolvimento de Sistemas • Protótipo Acadêmico Sem Fins Lucrativos</p>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <span class="logo-mark">EM</span>
+          <span class="logo-text">Eletric Motors</span>
+        </a>
+      </div>
+      <nav aria-label="Navegação Principal">
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
+          <li><a href="solucoes.html">Soluções</a></li>
+          <li><a href="impacto.html">Impacto</a></li>
+          <li><a href="diferenciais.html">Diferenciais</a></li>
+          <li><a href="contato.html" class="btn-nav active">Fale Conosco</a></li>
+        </ul>
+      </nav>
+      <div class="theme-selector-wrapper">
+        <label for="theme-select" class="sr-only">Escolher Tema:</label>
+        <select id="theme-select" class="theme-select" aria-label="Selecione o tema de cores">
+          <option value="light">☀️ Claro</option>
+          <option value="dark">🌙 Escuro</option>
+          <option value="forest">🌿 Floresta (Verde)</option>
+          <option value="ocean">🌊 Oceano (Azul)</option>
+          <option value="sunset">🌅 Pôr do Sol (Laranja)</option>
+          <option value="purple">💜 Neon (Roxo)</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Entre em Contato</h2>
+          <p class="section-subtitle">Tem alguma dúvida sobre o projeto acadêmico ou proposta de parceria? Envie uma mensagem para nossa equipe.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" alt="Nosso Laboratório" class="img-responsive">
+            
+            <div class="info-group">
+              <div>
+                <h4>Endereço do Laboratório</h4>
+                <p>Av. Takamassa Nomuro, 1945 — Bloco PCD<br>Índia</p>
+              </div>
+              <div>
+                <h4>E-mail</h4>
+                <p>meia38ferro88@gmail.com</p>
+              </div>
+              <div>
+                <h4>Horário de Atendimento</h4>
+                <p>Segunda a Sexta, das 08h às 17h</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="form" id="contact-form" action="https://formspree.io/f/mqpknnlk" method="POST">
+            <div class="form-group">
+              <label for="nome">Nome Completo <span class="required">*</span></label>
+              <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail <span class="required">*</span></label>
+              <input type="email" id="email" name="_replyto" required placeholder="seuemail@exemplo.com">
+            </div>
+
+            <div class="form-group">
+              <label for="assunto">Assunto</label>
+              <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem">
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Mensagem <span class="required">*</span></label>
+              <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Digite sua mensagem aqui..."></textarea>
+            </div>
+
+            <button type="submit" id="btn-submit" class="btn-submit">Enviar Mensagem</button>
+            <div id="form-status" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-text">Eletric Motors</span>
+        <p>Projeto acadêmico sem fins lucrativos focado em soluções sustentáveis.</p>
+      </div>
+      <nav>
+        <ul class="footer-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Quem Somos</a></li>
+          <li><a href="solucoes.html">Soluções</a></li>
+          <li><a href="impacto.html">Impacto</a></li>
+          <li><a href="diferenciais.html">Diferenciais</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Eletric Motors. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
