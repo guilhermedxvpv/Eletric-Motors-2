@@ -24,6 +24,6 @@ Este site foi desenvolvido com foco em performance, acessibilidade e design resp
 🌐 Como Acessar
 
 Você pode navegar pelo site publicado diretamente através do link:
-👉 [Eletric Motors no GitHub Pages](https://guilhermedxv.github.io/Eletric-Motors/)
+👉 [Eletric Motors no GitHub Pages](https://guilhermedxvpv.github.io/Eletric-Motors-2/)
 
 instagram:@guilherme_dxvpv
